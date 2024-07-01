@@ -1,0 +1,15 @@
+program {
+    int x = 0;
+start:
+    x = x + 1;
+    write(x);
+    if (x < 3) goto start;
+    goto end;
+loop:
+    x = x - 1;
+    write(x);
+    if (x > 0) goto loop;
+end:
+    write("End of program");
+}
+

@@ -1,0 +1,12 @@
+program
+{
+    int i = 1;
+    int j = 2;
+    while (i <= 5)
+    {
+ 
+       i = i + j + i + j;
+    }
+    write(i);
+}
+

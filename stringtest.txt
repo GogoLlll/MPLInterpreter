@@ -1,0 +1,10 @@
+program {
+    string str1, str2;
+    read(str1);
+    read(str2);
+    if (str1 == str2) {
+        write("Strings are equal");
+    } else {
+        write("Strings are not equal");
+    }
+}

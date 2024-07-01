@@ -1,0 +1,15 @@
+program {
+    int n = 5;
+    int result = 1;
+    read(n);
+    goto start;
+loop:
+    result = result * n;
+    n = n - 1;
+start:
+    if (n > 1) {
+        goto loop;
+    }
+    write(result);
+}
+
